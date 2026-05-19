@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.so
+
+# Entorno virtual
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Datos sensibles (no subir facturas reales con información de clientes)
+data/raw/*.pdf
+data/raw/*.png
+data/raw/*.jpg
+sample_invoices/*.pdf
+
+# Modelos grandes (subir solo si son <100MB)
+# models/modelo_facturas/
+
+# Resultados temporales
+results/outputs/*.csv
+results/outputs/*.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db

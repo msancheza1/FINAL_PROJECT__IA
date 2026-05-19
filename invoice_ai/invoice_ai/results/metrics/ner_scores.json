@@ -1,0 +1,29 @@
+{
+  "global": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "per_entity": {
+    "PRODUCTO": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "CANTIDAD": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "PRECIO": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "dataset": {
+    "train_size": 240,
+    "test_size": 60,
+    "total": 300
+  }
+}
